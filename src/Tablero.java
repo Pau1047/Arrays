@@ -7,11 +7,11 @@ public class Tablero {
                         tablero[i][j]= 'X';
                     }else tablero[i][j]= 'O';
                 }
-                 if (i%2!=0){
-                     if (j%2!=0){
-                       tablero[i][j]= 'X';
-                     }else tablero[i][j]= 'O';
-                 }
+                if (i%2!=0){
+                    if (j%2!=0){
+                        tablero[i][j]= 'X';
+                    }else tablero[i][j]= 'O';
+                }
             }
         }
     }
@@ -28,5 +28,5 @@ public class Tablero {
         char[][] matriz = new char[5][5];
         ponxMatriz(matriz);
         enseñaMatriz(matriz);
-        }
+    }
 }
