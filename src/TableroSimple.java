@@ -1,4 +1,4 @@
-public class Tablero {
+public class TableroSimple {
     public static void ponxMatriz(char[][] tablero){
         for (int i =0; i<tablero.length; i++){
             for (int j=0; j<tablero[0].length; j++){
@@ -30,3 +30,4 @@ public class Tablero {
         enseñaMatriz(matriz);
     }
 }
+
